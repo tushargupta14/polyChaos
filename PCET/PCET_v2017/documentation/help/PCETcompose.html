@@ -1,0 +1,17 @@
+<html><head>	<style type="text/css">		h1 {color: #900; font-size: 24px; padding: 2px 0px 2px 0px; margin: 10px 0px 0px 5px; vertical-align: middle;}		h2 {color: #900; font-weight: bolder}		.doctext  {display: block; font-family: monospace; white-space: pre; margin: 1em 0px;}		.keyword  {color: #900; font-weight: bold;}		.header {background-color: #900; color: white; font-weight: bold}	</style></head><title>PCETcompose</title><body><div class="header">PCET documentation: PCETcompose</div><h1>PCETcompose</h1><pre class="doctext">
+<a href="PCETsys.html">PCETsys</a> = PCETcompose(states, parameters, inputs, outputs) 
+returns a struct containing the Polynomial Chaos Expansion of order 2 of 
+the system defined by the states-, parameters-, and inputs-structs used 
+as input arguments. See 'help PCET' for more information on how to define
+a system.
+
+PCETcompose(states, parameters, inputs, outputs, order) additionally sets 
+the order of the Polynomial Chaos Expansion.
+
+NOTE: PCETcompose(s)      does the same as  PCETcompose(s,[],[],[],2)
+      PCETcompose(s,p)    does the same as  PCETcompose(s,p,[],[],2)
+      PCETcompose(s,p,i)  does the same as  PCETcompose(s,p,i,[],2)
+
+In order to simulate the composed system, first create its expanded
+right-hand-sides using <a href="PCETwriteFiles.html">PCETwriteFiles</a>(<a href="PCETsys.html">PCETsys</a>).
+</pre></body></html>

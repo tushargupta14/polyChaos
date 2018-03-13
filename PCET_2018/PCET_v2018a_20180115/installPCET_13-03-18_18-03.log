@@ -1,0 +1,111 @@
++--------------------------------------------------------------------------------+
+| INSTALLATION                                                                   |
++--------------------------------------------------------------------------------+
+| PCET (Polynomial Chaos Expansion Toolbox) for MATLAB                           |
+|   by [Streif et al., 2015]                                                     |
++--------------------------------------------------------------------------------+
+| LICENSING CONDITIONS AND COPYRIGHT INFORMATION:                                |
+| -----------------------------------------------                                |
+| 1. PCET can be used without any fee for academic and non-commercial            |
+|    purposes only.                                                              |
+| 2. The LICENSER does not adhere to any problems that arise directly            |
+|    or indirectly from using PCET. PCET is distributed in the hope              |
+|    that it will be useful but WITHOUT ANY WARRANTY; without even the           |
+|    implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR             |
+|    PURPOSE.                                                                    |
+| 3. The copyright for PCET remains with the LICENSER.                           |
+| 4. The user is not allowed to distribut PCET without permission of the         |
+|    LICENSER.                                                                   |
+| 5. When publishing results gained by using PCET, PCET has to be                |
+|    mentoned with appropriate citations                                         |
+|    (ask the LICENSER for an appropriate list of references).                   |
+| 6. The LICENSER reminds the user that for using PCET,                          |
+|    the commercial program MATLAB is required. In order to get a                |
+|    fully functional version of PCET, the user                                  |
+|    has to get the appropriate licenses himself.                                |
+| 7. This version of PCT may not be used after the expiration date.              |
++--------------------------------------------------------------------------------+
+Do you accept the licensing conditions? (y/n [n]): y
++--------------------------------------------------------------------------------+
+Searching for previous installation of PCET...
+Found existing installation of PCET. Removing paths to existing installation ...
+Found existing installation of PCET. Removing paths to existing installation ...
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017" not found in path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/auxiliary" not found in path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/documentation" not found in path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/documentation/help" not found in path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/documentation/help/helpsearch" not found in path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/documentation/help/helpsearch-v3" not found in
+path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/examples" not found in path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/examples/ex1_continuous_simulation" not found in
+path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/examples/ex2_lti_systems" not found in path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/examples/ex3_discrete_simulation" not found in
+path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/examples/ex4_discrimination" not found in path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/examples/ex5_fault_detection" not found in path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+[Warning: "/home/tushar/Chemical/PCE/PCET/PCET_v2017/examples/vinay" not found in path.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rmpath', '/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m', 57)" style="font-weight:bold">rmpath</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016a/toolbox/matlab/general/rmpath.m',57,0)">line 57</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET>removePathDefs')" style="font-weight:bold">installPCET>removePathDefs</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('installPCET')" style="font-weight:bold">installPCET</a>] 
+Adding search paths for PCET functions...
+ 
+Your MATLAB installation does not allow the saving of the updated MATLAB path variable.
+This means that you have to add the PCET folder and all its subfolders to the MATLAB
+path each time you start MATLAB or run this script using the option installPCET('path'),
+which does that without testing external tools that might be required or other toolboxes.
+ 
+Press any key to continue.
++--------------------------------------------------------------------------------+
+Determining versions of installed toolboxes (this might take few seconds) ...
+
+Checking "MATLAB" installation ...  OK! Installed version: 9.0
+Checking "Symbolic Math Toolbox" installation ...  OK! Installed version: 7.0
+Checking "Optimization Toolbox" installation ...  OK! Installed version: 7.4
+ 
+Press any key to continue.
++--------------------------------------------------------------------------------+
+Creating documentation...
+Successfully created search database.
+
+Note: You might have to restart Matlab once in order to 
+refresh help paths and to use the PCET documentation.
+ 
+Press any key to continue.

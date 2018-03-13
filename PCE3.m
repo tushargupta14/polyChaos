@@ -107,8 +107,8 @@ outputs(1).rhs = 'u3s';
 outputs(2).name = 'y2';
 outputs(2).rhs = 'u3n';
 
-simoptions.tspan = [0 180];
-simoptions.dt = 5; % in continuous-time this only defines the stepwidth for plotting
+simoptions.tspan = [0 1800];
+simoptions.dt = 200; % in continuous-time this only defines the stepwidth for plotting
 simoptions.setup = odeset;
 simoptions.solver = 'ode45';
 

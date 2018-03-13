@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<toc version="1.0">
+<!-- First tocitem specifies top level in Help browser Contents pane -->
+<!-- This can be a roadmap page, as shown below, or a content page -->
+    <tocitem target="PCET_product_page.html">PCET
+        <!-- Nest tocitems to create hierarchical entries in  Contents-->
+        <!-- To include icons, use the following syntax for tocitems: -->
+        <!-- <tocitem target="foo.html" image="HelpIcon.NAME"> -->
+        <!-- Title-of-Section </tocitem> -->
+        <!-- where NAME is one of the following (use capital letters): -->
+        <!-- FUNCTION, USER_GUIDE, EXAMPLES, BLOCK, GETTING_STARTED, -->
+        <!-- DEMOS, RELEASE_NOTES --> 
+        <!-- Icon images used for these entries are also stored in -->
+        <!-- matlabroot/toolbox/matlab/icons -->
+        <!-- A Getting Started Guide usually comes first -->
+        <tocitem target="PCET_getting_started.html"
+        image="HelpIcon.GETTING_STARTED">Getting started
+        <!--About PCET Toolbox-->
+            <tocitem target="PCET_product_overview.html">Product Overview</tocitem>
+            <tocitem target="PCET_system_requirements.html">System Requirements</tocitem>
+            <tocitem target="PCET_installation.html">Installation/Update</tocitem>
+            <!--<tocitem target="PCET_features.html">Features</tocitem>-->
+        </tocitem>
+     <!-- User Guide comes next -->
+     <!--   <tocitem target="upslope_user_guide.html" 
+            image="HelpIcon.USER_GUIDE">User Guide
+        </tocitem>-->
+     <!-- Function reference next -->
+     <!-- First item is page describing function categories, if any -->
+        <tocitem target="Contents_by_cat.html" 
+                 image="HelpIcon.FUNCTION">Function Reference
+            <!-- List category with link to anchor in above page -->
+            <tocitem target="Contents_by_cat.html#1">Main Functions 
+                <tocitem target="PCET.html">PCET</tocitem>
+                <tocitem target="PCETbasis.html">PCETbasis</tocitem>
+                <tocitem target="PCETcalcMoments.html">PCETcalcMoments</tocitem>
+                <tocitem target="PCETcoeffMatrices.html">PCETcoeffMatrices</tocitem>
+                <tocitem target="PCETcompose.html">PCETcompose</tocitem>
+                <tocitem target="PCETmomentMatrices.html">PCETmomentMatrices</tocitem>
+                <tocitem target="PCETquadRules.html">PCETquadRules</tocitem>
+                <tocitem target="PCETsample.html">PCETsample</tocitem>
+                <tocitem target="PCETsimCollocation.html">PCETsimCollocation</tocitem>
+                <tocitem target="PCETsimGalerkin.html">PCETsimGalerkin</tocitem>
+                <tocitem target="PCETsimMonteCarlo.html">PCETsimMonteCarlo</tocitem>
+                <tocitem target="PCETupdate.html">PCETupdate</tocitem>
+                <tocitem target="PCETwriteFiles.html">PCETwriteFiles</tocitem>
+            </tocitem>
+            <tocitem target="Contents_by_cat.html#2">Auxiliary Functions
+                <tocitem target="installPCET.html">installPCET</tocitem>
+            </tocitem>
+        </tocitem>
+        <!-- Optional Release Notes file -->
+        <tocitem target="PCET_release_notes.html" 
+            image="HelpIcon.RELEASE_NOTES">Release Notes
+        </tocitem>
+        <!-- Optional List of Examples, with hyperlinks to examples in other files -->
+        <!-- Optional Function Reference by category comes next -->
+        
+        <!-- Optional link or links to your or other Web sites -->
+        <tocitem target="_redirect.html" 
+                 image="$toolbox/matlab/icons/webicon.gif">
+        PCET Toolbox Web Site
+        </tocitem>
+    </tocitem>
+</toc>
